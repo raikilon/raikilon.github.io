@@ -4,6 +4,9 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+.wrap .about-desc .bold-text {z-index: -1; }
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -8241,7 +8244,8 @@ textarea.form-control {
 
 .ftco-counter .text {
   display: block;
-  width: 100%; }
+  width: 100%; 
+  text-align:center;}
   .ftco-counter .text strong.number {
     font-weight: 400;
     font-size: 180px;
