@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Watermaze - Yab Sliveroath's Quest</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <link rel="stylesheet" href="../css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/magnific-popup.css">
+
+    <link rel="stylesheet" href="../css/aos.css">
+
+    <link rel="stylesheet" href="../css/ionicons.min.css">
+
+    <link rel="stylesheet" href="../css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="../css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="../css/flaticon.css">
+    <link rel="stylesheet" href="../css/icomoon.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Watermaze - Yab Sliveroath's Quest.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body style="position:static">
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 1280px; height: 700px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">Watermaze - Yab Sliveroath's Quest</div>
+      </div>
+	     <div class="footer"><b>Team Members:</b> <ul style="margin-left:40px;"> <li> Noli Manzoni (noli.manzoni@students.bfh.ch) </li> <li> Samuel Gauthier (samuelluc.gauthier@students.bfh.ch)</li> </ul>
+	  <b>Features:</b> <ul style="margin-left:40px;"> <li> Random maze generation </li> <li> Three game modes (first person, third person and third person isometric) </li> <li> Customized water </li> <li> Personalized menus </li> </ul>
+	  <b>Intructions:</b> <ul style="margin-left:40px;"> <li> Use the menu to choose the game mode and the settings </li> <li> Use "1" to return to the main menu when playing </li> <li> Use A,W,D,S to move </li> <li> In third person mode use Q and E to rotate the camera of 90 degree </li> <li> In first person use SHIFT to run</li> <li> Use SPACE to jump</li></ul></div>
+	
+    </div>
+  </body>
+</html>

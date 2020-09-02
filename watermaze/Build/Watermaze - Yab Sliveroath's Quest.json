@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Watermaze - Yab Sliveroath's Quest",
+"dataUrl": "Watermaze - Yab Sliveroath's Quest.data.unityweb",
+"asmCodeUrl": "Watermaze - Yab Sliveroath's Quest.asm.code.unityweb",
+"asmMemoryUrl": "Watermaze - Yab Sliveroath's Quest.asm.memory.unityweb",
+"asmFrameworkUrl": "Watermaze - Yab Sliveroath's Quest.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
